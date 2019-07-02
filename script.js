@@ -199,7 +199,6 @@ class Lfp {
     }
 
     constructor() {
-        this.name = "test"
         this.commonStyleAnalysis = function() {
             return Lfp.analyseEligibleElements(Lfp.util.DOM_ANALYSIS_COMMON_OPTIONS());
         }
@@ -207,15 +206,6 @@ class Lfp {
             return Lfp.analyseEligibleElements(optionsName);
         }
     }
-    // commonStyleAnalysis() {
-    //     console.log(Lfp.util)
-    //     return Lfp.analyseEligibleElements(Lfp.util.DOM_ANALYSIS_COMMON_OPTIONS());
-    // };
-
-    // customStyleAnalysis(optionsName) {
-    //     return Lfp.analyseEligibleElements(optionsName);
-    // };
-
 };
 
 
